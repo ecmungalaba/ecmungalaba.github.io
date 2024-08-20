@@ -1,7 +1,7 @@
 # Data Professional
 
 ### Education
-Computer Science, PGD <b>
+Computer Science, PGD <br/>
 Physics, BSc
 
 ### Work Experience
