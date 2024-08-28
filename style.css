@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
+    color: whitesmoke;
 }
 
 .header {
@@ -16,12 +17,26 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 30%;
-    background: black;
+    padding: 20px 10%;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    color: pink;
 }
 
 img {
@@ -29,4 +44,32 @@ img {
   border-radius: 100px;
   float: left;
   margin-right: 10px;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: pink;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
 }
