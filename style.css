@@ -39,13 +39,6 @@ body {
     color: pink;
 }
 
-img {
-  width: 200px;
-  border-radius: 100px;
-  float: left;
-  margin-right: 10px;
-}
-
 .home {
     height: 100vh;
     display: flex;
@@ -73,6 +66,13 @@ img {
     font-size: 16px;
     margin: 20px 0 40px;
 }
+
+img {
+    width: 200px;
+    border-radius: 100px;
+    float: right;
+    margin-left: 10px;
+  }
 
 .home-sci {
     position: absolute;
