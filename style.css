@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
     color: whitesmoke;
 }
 
@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 18vw;
     color: whitesmoke;
     text-decoration: none;
     font-weight: 500;
@@ -39,32 +39,63 @@ body {
     color: pink;
 }
 
-.home {
-    height: 100vh;
-    width: 140vh;
+.home-headline {
+    height: 50%;
+    width: 100%;
+    background-color: black;
     display: flex;
-    align-items: center;
-    padding: 0 5%;
+    padding: 100px 5% 0px;
 }
 
-.home-content {
-    max-width: 1200px;
+.home-intro {
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
 }
 
-.home-content h1 {
-    font-size: 56px;
+.home-intro h1 {
+    font-size: 80vw;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 2.0;
 }
 
-.home-content h2 {
-    font-size: 32px;
+.home-intro h2 {
+    font-size: 40vw;
     font-weight: 700;
     color: pink;
 }
 
-.home-content p {
-    font-size: 16px;
+.home-intro h3 {
+    font-size: 20vw;
+    font-weight: 500;
+    color: grey;
+}
+
+.home-content {
+    height: 50%;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    padding: 50px 5% 100px;
+}
+
+.home-about {
+    float: right;
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.home-about h2 {
+    font-size: 32vw;
+    font-weight: 700;
+    color: pink;
+}
+
+.home-about p {
+    color: black;
+    font-size: 16vw;
+    float: right;
     margin: 20px 0 40px;
 }
 
@@ -72,14 +103,14 @@ img {
     width: 300px;
     border-radius: 150px;
     float: left;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-right: 50px;
   }
 
 .home-sci {
-    position: absolute;
-    bottom: 40px;
-    width: 100px;
+    position:fixed;
+    bottom: 50px;
+    width: 150px;
     display: flex;
     justify-content: space-between;
 }
