@@ -76,11 +76,11 @@ body {
     width: 100%;
     background: transparent;
     display: flex;
+    flex-direction: column;
     padding: 50px 5% 100px;
 }
 
 .home-about {
-    float: right;
     margin: 10px;
     padding: 20px;
     width: 100%;
@@ -95,7 +95,6 @@ body {
 .home-about p {
     color: black;
     font-size: 1rem;                       /* was 16vw */
-    float: right;
     margin: 20px 0 40px;
 }
 
@@ -108,8 +107,7 @@ img {
   }
 
 .home-sci {
-    position:fixed;
-    bottom: 50px;
+    position:static;
     width: 150px;
     display: flex;
     justify-content: space-between;
@@ -174,6 +172,5 @@ img {
 
     .home-sci {
         position: static;         /* stop the icons floating over the content */
-        margin: 0 auto;
     }
 }
