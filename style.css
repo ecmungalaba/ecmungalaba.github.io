@@ -26,7 +26,7 @@ body {
 }
 
 .navbar a {
-    font-size: 18vw;
+    font-size: 1.1rem;                     /* was 18vw */
     color: whitesmoke;
     text-decoration: none;
     font-weight: 500;
@@ -54,19 +54,19 @@ body {
 }
 
 .home-intro h1 {
-    font-size: 80vw;
+    font-size: clamp(2rem, 6vw, 4rem);     /* was 80vw */
     font-weight: 700;
-    line-height: 2.0;
+    line-height: 1.2;                      /* was 2.0 */
 }
 
 .home-intro h2 {
-    font-size: 40vw;
+    font-size: clamp(1.25rem, 3vw, 2rem);  /* was 40vw */
     font-weight: 700;
     color: pink;
 }
 
 .home-intro h3 {
-    font-size: 20vw;
+    font-size: 1rem;                       /* was 20vw */
     font-weight: 500;
     color: grey;
 }
@@ -87,14 +87,14 @@ body {
 }
 
 .home-about h2 {
-    font-size: 32vw;
+    font-size: 2rem;                       /* was 32vw */
     font-weight: 700;
     color: pink;
 }
 
 .home-about p {
     color: black;
-    font-size: 16vw;
+    font-size: 1rem;                       /* was 16vw */
     float: right;
     margin: 20px 0 40px;
 }
