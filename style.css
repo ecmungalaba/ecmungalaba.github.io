@@ -83,7 +83,7 @@ body {
     float: right;
     margin: 10px;
     padding: 20px;
-    width: 50%;
+    width: 100%;
 }
 
 .home-about h2 {
@@ -125,4 +125,55 @@ img {
     font-size: 40px;
     color: pink;
     text-decoration: none;
+}
+
+/* ---------- Responsive fixes ---------- */
+
+/* Phones and small tablets */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .navbar a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .home-headline {
+        padding: 80px 5% 20px;
+    }
+
+    .home-intro {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        float: none;
+        display: block;
+        width: 180px;
+        margin: 0 auto 20px;      /* "auto" left and right centres it */
+    }
+
+    .home-content {
+        flex-direction: column;   /* stack chart, About Me and icons vertically */
+        padding: 20px 5% 40px;
+    }
+
+    .home-about {
+        width: 100%;
+        margin: 0;
+        padding: 10px 5%;
+    }
+
+    .home-about p {
+        float: none;
+    }
+
+    .home-sci {
+        position: static;         /* stop the icons floating over the content */
+        margin: 0 auto;
+    }
 }
